@@ -9,7 +9,8 @@ import '../models/category.dart';
 /// Local Database Service
 /// This service manages local SQLite database operations for offline functionality
 class LocalDatabaseService {
-  static final LocalDatabaseService _instance = LocalDatabaseService._internal();
+  static final LocalDatabaseService _instance =
+      LocalDatabaseService._internal();
   factory LocalDatabaseService() => _instance;
   LocalDatabaseService._internal();
 

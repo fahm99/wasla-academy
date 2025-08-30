@@ -4,7 +4,7 @@ class EnvConfig {
     'SUPABASE_URL',
     defaultValue: '',
 
-  static const String supabaseAnonKey = String.fromEnvironment(
+  static String supabaseAnonKey = String.fromEnvironment(
     'SUPABASE_ANON_KEY',
     defaultValue: '',
   );
